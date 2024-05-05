@@ -1,0 +1,16 @@
+torch
+torchvision
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+scipy
+scikit-learn
+scikit-image
+numba
+tqdm
+Pillow
+gdown==4.6.0
+glob2
+python-dateutil
