@@ -3,7 +3,7 @@ Repository for storing source code for reproducing and extending "Deep Learning 
 
 ## Dataset Download Instructions
 1. Navigate to the `local_traniner` folder, which stores all relevant lung image data.
-2. The training, evaluation, and testing data for all hospital data is located under the `input` folder. This folder contains `train`, `val` `folder`, `test`, and `testNewHospital` folders. The first four folders contain the original data in the paper's GitHub repository [1], and the the `testNewHospital` folder contains our curated data for Sao Paulo hospital patients [2].
+2. The training, evaluation, and testing data for all hospital data is located under the `input` folder. This folder contains `train`, `val`, `test`, and `testNewHospital` folders. The first three folders contain the original data in the paper's GitHub repository [1], and the the `testNewHospital` folder contains our curated data for Sao Paulo hospital patients [2].
 
 ## Code Execution Instructions
 Download the Jypyter notebook file (.ipynb) in the root directory of this repository. Open the notebook in an IDE of your choice. To run the code, simply run the cells in the notebook. The Jupyter notebook will access the training, validation, and testing data from a Google Drive folder, so there is nothing that needs to be modified unless you want to integrate new data.
