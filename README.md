@@ -12,6 +12,24 @@ The training functions, for the different experiments performed, in the Jupyter 
 
 Note that the `input` and `model` folders of this repository are solely for download purposes and are not used anywhere within the notebook.
 
+## Pretrained Models
+You can find all the pretrained model checkpoint files under the `model` directory of this repository.
+
+## Results
+The following are results of 6 different deep learning models on the test set (test set images located under `input/test` folder).
+
+| Model       | Accuracy | AUC   | Precision | Recall |
+|-------------|----------|-------|-----------|--------|
+| DRENet with ResNet-50 Base *(reported in paper)*     | **0.86**     | **0.95**  | 0.79      | 0.96   |
+| DRENet with ResNet-50 Base *(reproduced result)*   | 0.83     | 0.93  | 0.82      | **1.00**   |
+| DRENet with ResNet-101 Base *(custom experiment)*  | 0.69     | 0.71  | 0.62      | **1.00**   |
+| InceptionNet *(custom experiment)* | 0.86     | 0.87  | **0.88**      | 0.86   |
+| AlexNet *(custom experiment)*     | 0.50     | 0.50  | 0.25      | 0.50   |
+| ResNet-50 *(reported in paper)*      | **0.86**    | 0.90  | 0.81      | 0.93   |
+| VGG-16 *(reported in paper)*      | 0.84     | 0.91  | 0.80      | 0.89   |
+| DenseNet *(reported in paper)*   | 0.82     | 0.87  | 0.76      | 0.93   |
+
+
 ## References
 [1] Song, Ying et al. "Deep Learning Enables Accurate Diagnosis of Novel Coronavirus (COVID-19) With
 CT Images." IEEE/ACM transactions on computational biology and bioinformatics vol. 18,6 (2021):
